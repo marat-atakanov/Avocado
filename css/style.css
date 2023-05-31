@@ -1,0 +1,686 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.imgBlock {
+    background-image: url(../images/avocadobg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 920px;
+    position: relative;
+}
+
+.imgBlock__inner {
+    padding: 48px 0;
+}
+
+.imgBlock__inner_logo {
+    position: absolute;
+    top: 46px;
+}
+
+.imgBlock__inner_spans {
+    margin: 0 auto;
+    width: 386px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.imgBlock__inner_spans .imgBlock__inner_span {
+    color: white;
+    font-family: 'Century Gothic', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.imgBlock__inner_spans .imgBlock__inner_span:hover {
+    color: #B7E765;
+    text-decoration: underline;
+}
+
+.imgBlock__inner_content {
+    width: 831px;
+    margin-top: 185px;
+}
+
+.imgBlock__inner_content_title {
+    font-family: 'Etna', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FFFFFF;
+}
+
+.imgBlock__inner_content div {
+    margin: 24px 0 0 -19px;
+    width: 67px;
+    border: 4px solid #FFE500;
+    border-radius: 5px;
+}
+
+.imgBlock__inner_content_desc {
+    margin-top: 26px;
+    width: 466px;
+    font-family: 'Century Gothic', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.imgBlock__inner_content button {
+    margin-top: 37px;
+    padding: 26px;
+    background-color: #E0BC00;
+    border: none;
+    border-radius: 8px;
+
+    font-family: 'Century Gothic', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #574900;
+}
+
+.imgBlock__inner_content button:hover {
+    cursor: pointer;
+    background-color: #e8cf48;
+}
+
+.imgBlock__inner_content button:active {
+    cursor: pointer;
+    background-color: #E0BC00;
+}
+
+.absoluteAvocado {
+    position: absolute;
+    bottom: -275px;
+    right: 0;
+}
+
+.menu {
+    margin-top: 187px;
+}
+
+.menu__inner_title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__inner_title p {
+    font-family: 'Etna', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 64px;
+
+    color: #84B936;
+}
+
+.menu__inner_title div div {
+    margin-top: 45px;
+    width: 467px;
+    border: 3px solid #84B936;
+    border-radius: 5px;
+}
+
+.menu__inner_types {
+    display: flex;
+    justify-content: space-between;
+    width: 455px;
+    height: 44px;
+    margin: 36px auto 0;
+}
+
+.menu__inner_types span {
+    cursor: pointer;
+    transition: 300ms;
+    user-select: none;
+}
+
+.menu__inner_types .menu__inner_types_type {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 44px;
+    width: 132px;
+    left: 160px;
+    transition: 300ms;
+}
+
+.menu__inner_types .menu__inner_types_type:nth-child(3) {
+    left: 130px;
+}
+
+.typeNew {
+    font-family: 'Century Gothic Bold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: rgba(132, 185, 54, 0.5);
+    height: 44px;
+}
+
+.typeBistro {
+    font-family: 'Century Gothic Bold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: rgba(132, 185, 54, 0.5);
+}
+
+.typeBuffet {
+    font-family: 'Century Gothic Bold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: rgba(132, 185, 54, 0.5);
+}
+
+.bistroSvg {
+    margin: 6px auto 0;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+/**************************/
+
+.menuSwiperCard {
+    width: 345px;
+    height: 474px;
+    position: relative;
+    user-select: none;
+}
+
+.menuSwiper {
+    margin-top: 68px;
+}
+
+.menuSwiperCard_title {
+    font-family: 'Century Gothic Bold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #84B936;
+}
+
+.menuSwiperCard_desc {
+    margin-top: 6px;
+    font-family: 'Century Gothic', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.menuSwiperCard_price {
+    font-family: 'Century Gothic', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #84B936;
+
+    margin-top: 23px;
+}
+
+.menuSwiperContent {
+    margin: 0 auto;
+    width: 1200px;
+    height: 474px;
+    /*overflow: hidden;*/
+}
+
+.menuSwiperContent:before {
+    width: 1440px;
+    content: '';
+    box-shadow: inset 120px 0 50px -70px #fff, inset -120px 0 50px -70px #ffffff;
+    position: absolute;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 10;
+}
+
+.newSwiper {
+    width: 1440px;
+}
+
+.bistroSwiper {
+    width: 1440px;
+}
+
+.buffetSwiper {
+    width: 1440px;
+}
+
+.swiper-button-prev {
+    left: 37px !important;
+}
+
+.swiper-button-prev::after {
+    content: "" !important;
+}
+
+.swiper-button-prev:hover {
+    fill: #abd075;
+}
+
+.swiper-button-prev:active {
+    fill: #86a15f;
+}
+
+.swiper-button-next {
+    right: 37px !important;
+}
+
+.swiper-button-next::after {
+    content: "" !important;
+}
+
+.swiper-button-next:hover {
+    fill: #abd075;
+}
+
+.swiper-button-next:active {
+    fill: #86a15f;
+}
+
+
+.menuSwiperContent .swiper-pagination-bullet {
+    margin: 0 8px !important;
+    width: 15px;
+    height: 15px;
+    background-color: #ffffff;
+    border: 3px solid #84B936 !important;
+    opacity: 1;
+}
+
+.menuSwiperContent .swiper-pagination-bullet-active {
+    background-color: #84B936;
+}
+
+.newSwiper .menuSwiperContent {
+    display: none;
+}
+
+.bistroSwiper .menuSwiperContent {
+    display: none;
+}
+
+.buffetSwiper .menuSwiperContent {
+    display: none;
+}
+
+.activeSwiper {
+    display: block !important;
+}
+
+/******************************/
+
+.bar {
+    margin-top: 254px;
+}
+
+.bar__inner_title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bar__inner_title p {
+    font-family: 'Etna', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 64px;
+
+    color: #84B936;
+}
+
+.bar__inner_title div div {
+    margin-top: 45px;
+    width: 468px;
+    border: 3px solid #84B936;
+    border-radius: 5px;
+}
+
+.bar__inner_types {
+    display: flex;
+    justify-content: space-between;
+    width: 485px;
+    margin: 36px auto 0;
+    position: relative;
+}
+
+
+.bar__inner_types span {
+    cursor: pointer;
+    transition: 300ms;
+    user-select: none;
+}
+
+.bar__inner_types .bar__inner_types_type {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 44px;
+    left: 205px;
+    transition: 300ms;
+}
+
+.bar__inner_types .bar__inner_types_type:nth-child(1) {
+    width: 68px;
+}
+
+.bar__inner_types .bar__inner_types_type:nth-child(2) {
+    width: 211px;
+    left: 195px;
+}
+
+.bar__inner_types .bar__inner_types_type:nth-child(3) {
+    width: 132px;
+    left: 130px;
+}
+
+.typeTea {
+    font-family: 'Century Gothic Bold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: rgba(132, 185, 54, 0.5);
+}
+
+.typeMilkshakes {
+    font-family: 'Century Gothic Bold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: rgba(132, 185, 54, 0.5);
+
+}
+
+.typeCoffee {
+    font-family: 'Century Gothic Bold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: rgba(132, 185, 54, 0.5);
+}
+
+.typeActive {
+    font-size: 36px;
+    color: #84B936;
+}
+
+.typeSidesInactive {
+    font-size: 20px;
+    color: #84B936;
+    color: rgba(132, 185, 54, 0.2);
+}
+
+/*.typeSmoothie {*/
+/*    position: absolute;*/
+/*    font-family: 'Century Gothic', sans-serif;*/
+/*    font-style: normal;*/
+/*    font-weight: 700;*/
+/*    font-size: 20px;*/
+/*    line-height: 25px;*/
+/*    color: rgba(132, 185, 54, 0.3);*/
+/*    right: -121px;*/
+/*    bottom: 4px;*/
+/*}*/
+
+.milkshakesSvg {
+    margin: 6px auto 0;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+/********************/
+
+.barSwiperCard {
+    width: 385px;
+    height: 414px;
+    position: relative;
+    user-select: none;
+}
+
+.barSwiper {
+    margin-top: 68px;
+}
+
+.barSwiperCard_title {
+    font-family: 'Century Gothic Bold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #84B936;
+}
+
+.barSwiperCard_desc {
+    margin-top: 6px;
+    font-family: 'Century Gothic', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+.barSwiperCard_price {
+    font-family: 'Century Gothic', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #84B936;
+
+    margin-top: 23px;
+}
+
+.barSwiperContent {
+    margin: 0 auto;
+    width: 1200px;
+    height: 430px;
+    /*overflow: hidden;*/
+}
+
+.barSwiperContent:before {
+    width: 1440px;
+    content: '';
+    box-shadow: inset 120px 0 50px -70px #fff, inset -120px 0 50px -70px #ffffff;
+    position: absolute;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 10;
+}
+
+.teaSwiper {
+    width: 1440px;
+}
+
+.milkshakesSwiper {
+    width: 1440px;
+}
+
+.coffeeSwiper {
+    width: 1440px;
+}
+
+.teaSwiper .barSwiperContent {
+    display: none;
+}
+
+.milkshakesSwiper .barSwiperContent {
+    display: none;
+}
+
+.coffeeSwiper .barSwiperContent {
+    display: none;
+}
+
+/***************************/
+
+.about {
+    margin-top: 241px;
+}
+
+.about__inner_title {
+    font-family: 'Etna', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 64px;
+    color: #84B936;
+}
+
+.about__inner_line {
+    margin: 19px 0 0 -20px;
+    width: 72px;
+    border: 3px solid #FFE500;
+    border-radius: 5px;
+}
+
+.about__inner_duties {
+    margin-top: 59px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 77px;
+}
+
+.about__inner_duties_duty {
+    width: 466px;
+}
+
+.about__inner_duties_duty .about__inner_duties_duty_title {
+    margin-top: 3px;
+    font-family: 'Century Gothic Bold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #84B936;
+}
+
+.about__inner_duties_duty .about__inner_duties_duty_desc {
+    margin-top: 7px;
+    font-family: 'Century Gothic', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+/*******************/
+
+.contacts {
+    background-color: #3D6405;
+    margin-top: 179px;
+    padding: 40px;
+}
+
+.contacts__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacts__inner_title {
+    width: 465px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts__inner_title div div {
+    margin-top: 15px;
+    width: 115px;
+    border: .5px solid #ffffff;
+    border-radius: 5px;
+}
+
+.contacts__inner_title p {
+    font-family: 'Century Gothic', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.39em;
+    color: #FFFFFF;
+}
+
+.contacts__inner_socialMedia {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    margin-top: 24px;
+}
+
+.contacts__inner_address {
+    margin-top: 27px;
+    font-family: 'Century Gothic', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.map {
+    margin-top: 9px;
+    width: 190px;
+    height: 127px;
+}
+
+.madeBy {
+    margin-top: 25px;
+}
+
+.madeBy p {
+    font-family: 'Century Gothic', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+
+    color: rgba(255, 255, 255, 0.3);
+}

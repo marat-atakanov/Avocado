@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Etna';
+    src: url('Etna.eot');
+    src: url('Etna.eot?#iefix') format('embedded-opentype'),
+        url('Etna.woff2') format('woff2'),
+        url('Etna.woff') format('woff'),
+        url('Etna.ttf') format('truetype'),
+        url('Etna.svg#Etna') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
